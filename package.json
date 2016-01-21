@@ -1,0 +1,42 @@
+{
+  "name": "bka-test",
+  "version": "1.0.0",
+  "description": "bka webapp for test built by AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js",
+    "pretest": "npm install",
+    "test": "karma start --browsers Chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/hlissnake/bka-test/"
+  },
+  "author": "hlissnake",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "baconjs": "^0.7.83",
+    "ramda": "^0.19.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.7",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-csslint": "^0.2.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-sass": "*",
+    "gulp-uglify": "^1.4.2",
+    "gulp-webpack": "^1.5.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.11",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-htmlfile-reporter": "^0.2.2",
+    "karma-mocha": "*",
+    "karma-chai": "*",
+    "mocha": "*",
+    "chai": "*"
+  }
+}

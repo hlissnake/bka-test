@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BKA Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script type="text/javascript" src="bka/src/do-not-refactor/LawnmowerRepository.js"></script>
+    <script type="text/javascript" src="bka/src/do-not-refactor/PhoneCaseRepository.js"></script>
+    <script type="text/javascript" src="bka/src/do-not-refactor/TShirtRepository.js"></script>
+    <script type="text/javascript" src="./build/angular.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"></head>
+  </head>
+  <body ng-app="bka">
+
+    <div style="max-width: 600px" ng-controller="bkaController">
+      <grid data="nzd"></grid>
+      <grid data="usd"></grid>
+      <grid data="euro"></grid>
+    </div>
+
+    <script type="text/javascript" src="./build/index.js"></script>
+  </body>
+</html>
