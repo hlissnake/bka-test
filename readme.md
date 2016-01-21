@@ -6,7 +6,7 @@ Application's online demo [hlissnake.github.io/bka-test/](http://hlissnake.githu
 * Angular.js.
 * SCSS preprocessor of css.
 * Webpack+gulp for project build.
-* Using Ramda functional programming lib to do data processing, with great Readability and Maintainability.
+* Using the Ramda, functional programming lib to do data processing, with great Readability and Maintainability.
 
 #### Unit Testing
 * Karma, Mocha, Chai, Angular Mocking.
